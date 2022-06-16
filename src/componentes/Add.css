@@ -1,0 +1,23 @@
+.formlist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.commentbox{
+    border: 2px solid black;
+    overflow: scroll;
+    resize: none;
+}
+
+.question{
+    color: gray;
+}
+
+.add{
+    background-color: black;
+    color: white;
+}
